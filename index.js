@@ -1,22 +1,13 @@
-// a function that takes players and their instruments as parameters
+
 function theBeatlesPlay(players, instruments){
-// an empty string which will contain a concatenation of the two values
 var everyPlayer = [];  
-  // running a for loop between 0 and the length of of the "players" array
   for(var i = 0; i < players.length ; i++){
-    // with each pass through the array you add a concatenated item 
-    // each item assigns a player to an instrument 
-      everyPlayer.push(players[i] + " plays " + instruments[i]);
+      everyPlayer.push(`${players[i]} plays ${instruments[i]}`);
   }
-  // we return the new no longer empty array
   return everyPlayer;
 }
 
-// a function that takes 1 argument 
 function johnLennonFacts(facts) {
-  // the array of facts on John Lennon 
-
-  // we create a new array to add the concatenated items to.
   var crazyFacts = [];
   // initialize the while loop
   var i = 0;
